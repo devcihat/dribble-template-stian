@@ -1,0 +1,132 @@
+
+#contact {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.contact-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+
+.contact-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-left {
+  width: 40%;
+  padding: 3rem;
+}
+
+.cont-top {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ffffff;
+}
+
+.cont-element {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.cont-element i {
+  color: #ffffff;
+  padding: 0.7rem;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: all 0.4s ease;
+}
+
+.cont-element:hover i {
+  background-color: #ffffff;
+  color: #011627;
+}
+
+.cont-element a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cont-bottom {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cont-bottom a {
+  color: #ffffff;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #181818;
+  border-radius: 50%;
+}
+
+.cont-bottom a:hover {
+  color: #181818;
+  background-color: #ffffff;
+}
+
+.cont-right {
+  width: 60%;
+  padding: 3rem;
+}
+
+.cont-right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-right form input,
+textarea,
+button {
+  width: 100%;
+  margin: 1rem 0;
+  background-color: transparent;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  transition: all 0.4s ease;
+}
+
+.cont-right form button {
+  background-color: #ffffff;
+  color: #011627;
+  cursor: pointer;
+}
+
+.cont-right form button:hover {
+  color: #011627;
+}
+
+.cont-right form input:hover,
+textarea:hover {
+  color: #011627;
+  background-color: #ffffff;
+}
+
+.cont-right form input:focus,
+textarea:focus {
+  color: #011627;
+  background-color: #ffffff;
+}
